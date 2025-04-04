@@ -1,0 +1,46 @@
+/* Import a cool anime-style font */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;700&display=swap");
+
+body {
+  background-image: url("aot.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Bebas Neue", sans-serif; /* Anime-style font */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#para {
+  font-size: 2rem;
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  max-width: 80%;
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  font-size: 1.5rem;
+  background: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-family: "Oswald", sans-serif;
+}
+
+button:hover {
+  background: darkred;
+  transform: scale(1.1);
+}
